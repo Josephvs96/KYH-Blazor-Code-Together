@@ -24,3 +24,11 @@ En Solution som innehåller 1 projekt enligt följande.
 En class bibliotek projekt som sköter backend delen som databas anslutningen och services som ansvarar för att prata med databasen åt klienten.
 
 Detta innehåller även några DTO modeller och en AutoMapper config.
+
+Justera appsettings för att inkludera connection string
+
+´´´
+"ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;database=KYHBlazorDemo;Trusted_Connection=True;Integrated Security=true;TrustServerCertificate=True;"
+  }
+´´´
