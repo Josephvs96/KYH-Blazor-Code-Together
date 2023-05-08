@@ -34,3 +34,13 @@ Justera appsettings för att inkludera connection string
   }
 ```
 
+Lägg till migration coden i program.cs
+
+```csharp
+using (var scope = app.Services.CreateScope())
+{
+    var service = scope.ServiceProvider.GetService<DataInitializer>();
+    if (service is not null)
+        await service.MigrateDataAsync();
+}
+```
