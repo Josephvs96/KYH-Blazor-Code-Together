@@ -27,8 +27,10 @@ Detta innehåller även några DTO modeller och en AutoMapper config.
 
 Justera appsettings för att inkludera connection string
 
-´´´
+
+```json
 "ConnectionStrings": {
     "DefaultConnection": "Server=localhost;database=KYHBlazorDemo;Trusted_Connection=True;Integrated Security=true;TrustServerCertificate=True;"
   }
-´´´
+```
+
