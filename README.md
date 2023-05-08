@@ -17,7 +17,7 @@ Detta projekt använder följande tekniker
 
 ## Struktur
 
-En Solution som innehåller 4 projekt enligt följande.
+En Solution som innehåller 1 projekt enligt följande.
 
 ### BlazorDemo.Backend
 
